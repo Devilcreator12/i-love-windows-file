@@ -1,2 +1,10 @@
-# i-love-windows-file
-it is a notepad code which will run only on windows  it is a continue speaking file which anyone can edit.
+do
+strText=("I love you")
+set ObjVoice = CreateObject("SAPI.SpVoice")
+ObjVoice.Speak StrText
+loop
+
+
+use this command in notepad on windows and save it on .vbs file
+Now run it
+to stop this you will have to restart.
